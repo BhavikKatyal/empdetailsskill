@@ -40,8 +40,7 @@ class CorrectSkill(MycroftSkill):
     def handle_detail_event_intent(self, message):
         url = "https://ip0rzvwy82.execute-api.us-east-1.amazonaws.com/Test/mycroft-skill-emp-details"
         payload = "{\n\t\"inputparams\":\"hridul gupta\"\n}"
-	headers = {'Content-Type': "application/json",
-	    'Host': "ip0rzvwy82.execute-api.us-east-1.amazonaws.com"}
+	headers = {'Content-Type': "application/json",'Host': "ip0rzvwy82.execute-api.us-east-1.amazonaws.com"}
         response = requests.request("POST", url, data=payload, headers=headers)
         data = json.loads(response.text)
         data2 = json.loads(data['body'])
