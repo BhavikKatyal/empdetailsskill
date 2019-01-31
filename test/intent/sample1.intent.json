@@ -1,7 +1,7 @@
 {
-"utterance":"give me details of Hridul",
+"utterance":"Give me details of Hridul",
 "intent_type":"DetailEventIntent",
 "intent":{
-"DetailEventKeyword":"give me details of Hridul"
+"DetailEventKeyword":"Give me details of Hridul"
 }
 }
