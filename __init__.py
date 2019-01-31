@@ -41,7 +41,10 @@ class CorrectSkill(MycroftSkill):
         data = json.loads(response.text)
         data2 = json.loads(data['body'])
         id_emp = data2['emp_id']
-        self.speak_dialog("Today in history event {} occured".format(id_emp)
+        self.speak_dialog("Today in history event {} occured".format(id_emp))
+    
+    def stop(self):
+         pass
     
 
 
