@@ -1,7 +1,9 @@
 {
-"utterance":"Give me details of Hridul",
-"intent_type":"DetailEventIntent",
-"intent":{
-"DetailEventKeyword":"Give me details of Hridul"
-}
+    "expected_dialog": "The details are as follows",
+    "intent": {
+        "name": "Bhavik Katyal"
+        "DetailEventKeyword":"Give me details of Bhavik Katyal"      
+    },
+    "intent_type": "DetailEventIntent",
+    "utterance": "Give me details of Bhavik Katyal"
 }
