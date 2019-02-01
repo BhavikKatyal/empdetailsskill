@@ -1,7 +1,7 @@
 {
     "expected_dialog": "The details are as follows",
     "intent": {
-        "name": "Bhavik Katyal"
+        "name": "Bhavik Katyal",
         "DetailEventKeyword":"Give me details of Bhavik Katyal"      
     },
     "intent_type": "DetailEventIntent",
