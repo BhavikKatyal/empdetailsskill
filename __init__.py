@@ -31,7 +31,10 @@ class CorrectSkill(MycroftSkill):
 
         url = "https://ip0rzvwy82.execute-api.us-east-1.amazonaws.com/Test/mycroft-skill-emp-details"
 
-        payload = "{\n\t\"inputparams\":\"hridul gupta\"\n}"
+        key="{\n\t\"inputparams\":"
+        value="hridul gupta"
+        key1 = "\""+value+"\"\n}"
+        payload = key + key1
         headers = {
             'Content-Type': "application/json",
             'Host': "ip0rzvwy82.execute-api.us-east-1.amazonaws.com"
