@@ -45,7 +45,7 @@ class CorrectSkill(MycroftSkill):
         location=data2['location']
         birth_date=data2['birth_date']
         joining_date=data2['joining_date']
-        self.speak_dialog("Employee ID,{} , Designation , {}, location, {} , Birth Date , {} , Joining date, {}".format(id_emp,designation,location,birth_date,joining_date))
+        self.speak_dialog("{}, {}, location, {} , Birth Date , {} , Joining date, {}".format(id_emp,designation,location,birth_date,joining_date))
     
     def stop(self):
          pass
