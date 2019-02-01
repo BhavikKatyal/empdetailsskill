@@ -28,12 +28,12 @@ class CorrectSkill(MycroftSkill):
                              self.handle_detail_event_intent)
 
     def handle_detail_event_intent(self, message):
-        name = message.data.get('name')
+       
 
         url = "https://ip0rzvwy82.execute-api.us-east-1.amazonaws.com/Test/mycroft-skill-emp-details"
 
         key="{\n\t\"inputparams\":"
-        value=name
+        value="hridul gupta"
         key1 = "\""+value+"\"\n}"
         payload = key + key1
         headers = {
