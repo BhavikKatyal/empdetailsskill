@@ -1,7 +1,8 @@
 {
-"utterance":"Give me details of Hridul",
-"intent_type":"DetailEventIntent",
-"intent":{
-"DetailEventKeyword":"Give me details of Hridul"
+"intent": {
+        "name": "Hridul Gupta"
+    },
+    "intent_type": "DetailEventIntent",
+    "utterance": "Give me details of Hridul Gupta"
 }
 }
